@@ -29,7 +29,7 @@ const getAITips = async () => {
   try {
     const token = localStorage.getItem('token');
     const { data } = await axios.post(
-      'http://localhost:5000/api/ai/tips',
+      `${process.env.REACT_APP_API_URL || 'https://expense-tracker-backend-adl2.onrender.com/api'}/ai/tips`,
       {
         totalIncome:       summary.totalIncome,
         totalExpense:      summary.totalExpense,
