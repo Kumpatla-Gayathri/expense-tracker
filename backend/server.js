@@ -8,9 +8,13 @@ const fs = require('fs');
 dotenv.config();
 
 const app = express();
-
-app.use(cors({
-    origin: ['http://localhost:3000', 'http://localhost:3004', 'http://localhost:3005'],
+    app.use(cors({
+  origin: [
+    'http://localhost:3000', 
+    'http://localhost:3004', 
+    'http://localhost:3005',
+    'https://expense-tracker-t2dq.vercel.app'
+  ],
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization']
