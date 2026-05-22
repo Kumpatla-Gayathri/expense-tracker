@@ -31,8 +31,7 @@ const Transactions = () => {
         isRecurring: false
     });
 
-    useEffect(() => { fetchTransactions(); }, [filter]);
-
+useEffect(() => { fetchTransactions(); }, [filter]); // eslint-disable-line
     const fetchTransactions = async() => {
         try {
             const params = filter !== 'all' ? { type: filter } : {};

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import {
   getGoals, createGoal,
-  updateGoal, deleteGoal, depositGoal
+  deleteGoal, depositGoal
 } from '../services/api';
 import Navbar from '../components/Navbar';
 import toast from 'react-hot-toast';
