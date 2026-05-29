@@ -10,7 +10,7 @@ A full-stack personal finance web application with AI-powered spending insights,
 
 
 
-🔗 \*\*Live Demo\*\* → \[https://expense-tracker-t2dq.vercel.app](https://expense-tracker-t2dq.vercel.app)
+🔗 \*\*Live Demo\*\* → \ https://expense-tracker-t2dq.vercel.app
 
 
 
